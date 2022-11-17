@@ -1,0 +1,131 @@
+:root {
+    --primary: #a6a5a5;
+    --light: #F8F8F8;
+    --dark: #252525;
+}
+
+body{
+    background: url(../img/Feather-Textile-Backgrounds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+h1,
+h2,
+.h1,
+.h2,
+.fw-bold {
+    font-weight: 600 !important;
+    color:var(--dark) !important;
+}
+
+h3,
+h4,
+.h3,
+.h4,
+.fw-medium {
+    font-weight: 500 !important;
+    color:var(--dark) !important;
+}
+
+h5,
+h6,
+.h5,
+.h6,
+.fw-normal {
+    font-weight: 400 !important;
+    color:var(--light) !important;
+}
+
+
+
+.form-control, .form-control:hover, .form-control:focus, .form-control:root{
+
+    background-color: #dbe6dc;
+    font-weight: 900 !important;
+    color: black;
+    box-shadow: none;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    margin-top: 10%;
+}
+
+.col-md-5{
+    padding-left: 127px;
+}
+
+
+.BtnForm{
+    background-color: #94B49F;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 2px solid #94B49F;
+    color: #2a2a2a;
+    width: 40%;
+    
+}
+
+.BtnFormP{
+    width: 40%;
+    background-color: #94B49F;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 1px double #94B49F;
+    color: #2a2a2a;
+    
+
+}
+
+a.BtnForm:hover{
+    color:#606060;
+}
+
+#poruka{
+    color: #94B49F !important;
+    font-family:"Open Sans",sans-serif;
+    font-size:1.5rem;
+    
+}
+
+#overline{
+    border-top: 2px solid #94B49F;
+    width:300px;
+}
+
+#naslov{
+    color: #ECB390 !important;
+    font-family:"Open Sans",sans-serif;
+    font-size:3rem;
+}
+
+
+#odg{
+    color: rgba(175, 104, 201, 0.781) !important;
+    font-family:"Open Sans",sans-serif;
+}
+
+
+.table{
+    background-color: #ECB390 !important;
+    border: 2px solid #d5a485;
+    color: #2a2a2a;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
